@@ -1,0 +1,51 @@
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #d6f5d6;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.calculator-section h1 {
+  color: #008080;
+}
+
+.calculator-section .form-control,
+.calculator-section .btn-primary {
+  border-color: #2f4f4f;
+  max-width: 300px;
+}
+
+.calculator-section .btn-primary {
+  background-color: #ff7f50;
+  border: none;
+  max-width: 150px;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bmi-table-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
